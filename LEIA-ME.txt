@@ -1,0 +1,24 @@
+
+Loja: Natal Encantado
+Segmento: Loja de produtos Natalinos e festivos
+Turma: 1 TI D
+
+Integrantes: Calebe, Phillip, Lucas
+
+LINKS: 
+
+Site: https://calebeoliveira07.github.io/natal-encantado/
+Repositorio: https://github.com/CalebeOliveira07/natal-encantado
+Video: https://youtu.be/4WHHkCMptb4?is=UlejVp0uQVJAqEYm
+
+Recursos de javascript utilizados:
+Slideshow - index.html
+Parallax - index.html
+Cards dinamico contem 50 produtos - index e produtos
+iltro e busca - produtos.html
+Carrinho com localStorage - index e produtos
+Validação de formulário 
+Menu responsivo 
+
+
+ 

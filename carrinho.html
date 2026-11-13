@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho | Natal Encantado</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="topo">
+    <h1 class="logo">Natal Encantado</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="carrinho.html">Carrinho (<span id="contador-carrinho">0</span>)</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h2 class="titulo-secao">Meu carrinho</h2>
+  <p>Confira os produtos que você escolheu.</p>
+  <div id="lista-carrinho"></div>
+  <section class="resumo-carrinho">
+    <p>Total da compra:</p>
+    <p id="total-carrinho" class="total">R$ 0,00</p>
+    <div class="acoes-carrinho">
+      <button id="finalizar-compra">Finalizar compra</button>
+      <button id="limpar-carrinho" class="remover">Limpar carrinho</button>
+    </div>
+  </section>
+</main>
+<footer>Natal Encantado</footer>
+</body>
+</html>

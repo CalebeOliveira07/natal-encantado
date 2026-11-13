@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | Natal Encantado</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="topo">
+    <h1 class="logo">Natal Encantado</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="carrinho.html">Carrinho (<span id="contador-carrinho">0</span>)</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h2 class="titulo-secao">Nossos produtos</h2>
+  <p>Temos 50 produtos separados por categorias natalinas.</p>
+  <div class="filtros">
+    <input id="campo-busca" type="search" placeholder="Pesquisar produto...">
+    <select id="filtro-categoria">
+      <option value="">Todas as categorias</option>
+      <option>Árvores de Natal</option>
+      <option>Enfeites</option>
+      <option>Iluminação</option>
+      <option>Decoração</option>
+      <option>Mesa natalina</option>
+      <option>Presépios</option>
+      <option>Embalagens natalinas</option>
+    </select>
+  </div>
+  <div id="grade-produtos" class="grade-produtos"></div>
+</main>
+<footer>Natal Encantado</footer>
+</body>
+</html>
